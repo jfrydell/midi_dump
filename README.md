@@ -1,0 +1,1 @@
+A simple program dumping events from MIDI devices to stdout for processing by another application. Exits upon receiving the command `exit` over stdin. Events are space-separated, and always begin with the MIDI channel number (last 4 bits of first message byte).
